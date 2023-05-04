@@ -5,9 +5,7 @@ body {
 }
 .lista {
     list-style: none;
-}
-a {
-    text-decoration: none;
+    
 }
 nav li {
     display: inline-block;
@@ -20,12 +18,24 @@ nav li:hover{
     background-color:#fff;
     color:#000;
     }
+a {
+    text-decoration: none;
+}
 button {
-margin-left: 160px;
+    margin-left: 160px;
 }
 input {
-    font-size: 17px;
+        font-size: 17px;
 }
 #usuario {
-    margin-left: 30.7px;
+    margin-left: 30px;
+}
+#name {
+    margin-left: 40px;
+}
+#email {
+    margin-left: 52px;
+}
+p {
+    color: rgb(0, 0, 0);
 }

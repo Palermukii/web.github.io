@@ -3,7 +3,7 @@ body {
     font-size: 17px;
     background-color:rgb(99, 247, 255);
 }
-.lista {
+ul {
     list-style: none;
 }
 a {
@@ -20,12 +20,7 @@ nav li:hover{
     background-color:#fff;
     color:#000;
     }
-button {
-margin-left: 160px;
-}
-input {
-    font-size: 17px;
-}
-#usuario {
-    margin-left: 30.7px;
+.descripcion {
+    margin-top: 45px;
+    width: 380px;
 }
