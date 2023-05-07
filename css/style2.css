@@ -1,41 +1,57 @@
 body {
     font-family: monospace;
     font-size: 17px;
-    background-color:rgb(99, 247, 255);
+    background-image: url(../img/fondo.jpg);
 }
 .lista {
     list-style: none;
-    
+    position: relative;
+    left: 29%;
+    transform: translate(0%);
 }
 nav li {
     display: inline-block;
     padding: 5px 10px;
     width:10%;
     text-align: center;
-
 }
 nav li:hover{
-    background-color:#fff;
-    color:#000;
+    background-color:#24303c;
     }
 a {
     text-decoration: none;
+    color: black; 
 }
-button {
-    margin-left: 160px;
+a:hover {
+    color:#ffffff;
 }
 input {
         font-size: 17px;
 }
 #usuario {
-    margin-left: 30px;
+    margin-left: 38px;
 }
 #name {
-    margin-left: 40px;
+    margin-left: 35px;
 }
 #email {
-    margin-left: 52px;
+    margin-left: 55px;
 }
-p {
-    color: rgb(0, 0, 0);
+#date {
+    margin-left: 30px;
+}
+#registro {
+    background-color: #24303c;
+    width: 550px;
+    height: 250px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: wheat;
+    font-family:sans-serif;
+    border-radius: 4px;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
 }

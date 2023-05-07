@@ -6,20 +6,18 @@ body {
 ul {
     list-style: none;
 }
-a {
-    text-decoration: none;
-}
 nav li {
     display: inline-block;
     padding: 5px 10px;
     width:10%;
     text-align: center;
-
 }
 nav li:hover{
-    background-color:#fff;
-    color:#000;
+    background-color:#24303c;
     }
+a:hover {
+    color:#ffffff;
+}
 .descripcion {
     margin-top: 45px;
     width: 380px;
