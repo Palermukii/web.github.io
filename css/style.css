@@ -1,7 +1,16 @@
+html {
+    height: 100vh;
+}
+
 body {
+    margin: 0;
     font-family: monospace;
     font-size: 17px;
     background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+    height: 100vh;  
 }
 .lista {
     list-style: none;
@@ -21,13 +30,10 @@ nav li {
 }
 nav li:hover{
     background-color:#24303c;
+    border-radius: 30px;
     }
 a:hover {
     color:#ffffff;
-}
-button {
-text-align: center;
-
 }
 input {
     font-size: 17px;  
@@ -37,8 +43,6 @@ input {
 }
 #login {
     background-color: #24303c;
-    width: 490px;
-    height: 200px;
     padding-top: 90px;
     text-align: center;
     color: wheat;
@@ -49,3 +53,13 @@ input {
     top: 40%;
     transform: translate(-50%, -50%);
 }
+.box {
+    padding: 1vh 2vh;
+    color: white;
+    text-decoration: none;
+  }
+  .box:hover {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    color: black;
+  }

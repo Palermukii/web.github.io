@@ -20,6 +20,7 @@ nav {
     height: 10vh;
     display: flex;
     justify-content:center;
+    background-color: rgb(247, 127, 241);
 }
 
 nav > ul {
@@ -33,21 +34,11 @@ nav a {
     color: black;
 }
 nav li {
-    padding: 1vh 2vw;
+    padding: 0vh 2vw;
     text-align: center;
     border: #7269e6;
     border-radius: 10px;
 }
-.box {
-    padding: 1vh 1.5vh;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-  }
-  .box:hover {
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
-    color: black;
-  }
 main {
     height: 60vh;
     display: flex;
@@ -59,17 +50,30 @@ main {
 #registro {
     border: 1px solid black;
     width: 300px;
-    padding: 30px;
-    background-color: #24303c;
+    padding: 20px;    background-color: #24303c;
     color: wheat;
     font-family:sans-serif;
     border-radius: 4px;
     text-align: center;
-}
 
+}
 #registro p {
     text-align: right;
 }
 button {
     align-items: center;
 }
+nav li {
+    padding: 1.5vh 3vw;
+    text-align: center;
+}
+.box {
+    padding: 1vh 2vh;
+    color: white;
+    text-decoration: none;
+  }
+  .box:hover {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    color: black;
+  }

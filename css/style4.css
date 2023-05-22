@@ -1,0 +1,12 @@
+body {
+    font-family: monospace;
+    font-size: 17px;
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+}
+li {
+    list-style: none;
+}
+i {
+    font-size: 30px;
+}
