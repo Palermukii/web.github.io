@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Nike';
+    src: url('Nike2.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+
 * {
     font-family: monospace;
 }
@@ -9,14 +16,13 @@ html {
 
 body {
     margin: 0;
-    font-family: monospace;
     font-size: 17px;
     background-image: url(../img/fondo.jpg);
     background-size: cover;
     background-repeat:   no-repeat;
     background-position: center center;
     background-attachment: fixed;
-    height: 100vh;  
+    height: 100vh;
 }
 li {
     font-size: 20px;
@@ -52,62 +58,83 @@ nav li {
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     color: black;
-  }
-h2 {
-    text-align: center;
-    border-bottom: 5px solid black;
-    padding-top: 5px;
-    margin-top: -5px;
 }
-main div {
-    border: 5px solid black;
-    width: 25vw;
-    height: 65vh;
-    margin: 0 auto;
-    text-align: center;
-    transition: transform .4s; 
-    background-color: aliceblue;
-}
-img {
-    padding-top: 50px;
-    width: 95%;
-    height: 35%;
-    padding-bottom: 90px;
-}
-#tres {
+main {
     display: flex;
 }
-#seis {
-    margin-top: 10vh;
-    display: flex;
-}
-ul {
-    list-style: none;
-}
-#kd15 {
-    width: 22vw;
-}
-#lebron19 {
-    width: 19vw;
-}
-#jordan11 {
-    width: 21vw;
-}
-#mid {
-    width: 20vw;
-}
-#airzoom {
-    width: 25vw;
-}
-div a {
-    font-size: 30px;
+.imagen {
     background-color: grey;
-    border: 1px solid black;
-    padding-right: 1px;
+    border: solid black 10px;
+    border-radius: 15px;
+    height: 65vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 5px;
 }
-div:hover {
-    transform: scale(1.085);
+section {
+    padding-left: 5vw;
+    width: 55vw;
+    margin-right: 1vw;
 }
+section h1,h2,h3 {
+    text-align: center;
+}
+.boton {
+    margin: 0 auto;
+    margin-top: 10vh;
+    font-size: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    width: 12vw;
+    background-color: grey;
+    border: solid black 10px;
+    border-radius: 15px;
+    animation: botona 2s ease infinite;
+    
+}
+@keyframes botona {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.06);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer {
     height: 24vh;
     background-color: #f168db;
@@ -138,12 +165,4 @@ footer div:hover {
 }
 .fiuter li a {
     color: black;
-}
-.zapatillaslink {
-    font-size: 17px;
-    text-decoration: none;
-    color: black;
-    border: none;
-    text-align: center;
-    margin: 0 auto;
 }

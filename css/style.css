@@ -18,7 +18,7 @@ body {
     left: 29%;
     transform: translate(0%);
 }
-a {
+.a.footer {
     text-decoration: none;
     color: black;
 }
@@ -32,7 +32,7 @@ nav li:hover{
     background-color:#24303c;
     border-radius: 30px;
     }
-a:hover {
+    .a.footer:hover {
     color:#ffffff;
 }
 input {
